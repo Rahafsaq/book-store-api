@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sign in</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="signIn-container" id="container">
+			<form class="card">
+				<h1 style="color: #88b3ff">Sign in</h1>
+				<input class="inputs" id="userName" type="text" placeholder="Enter UserName" minlength="5" required />
+				<input class="inputs" id="e-mail" type="email" placeholder="Enter E-mail" required />
+				<input
+					class="inputs"
+					id="password"
+					type="password"
+					placeholder="Enter Password"
+					minlength="8"
+					required
+				/>
+				<button id="signIn-btn" class="btn-login" type="button">Sign Un</button>
+				<p>
+					Already have an account? <a href="index.html"><span style="color: #88b3ff">Log in </span></a>
+				</p>
+			</form>
+		</div>
+		<script src="signup.js"></script>
+	</body>
+</html>
